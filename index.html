@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6e9d8a393b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Clases de guitarra</title>
+  </head>
+  <body>
+    <header id="header">
+      <img
+        src="https://i.pinimg.com/564x/e0/28/c4/e028c499645028468253561ad9f52955.jpg"
+        alt="guitar"
+        id="header-img"
+      />
+      <nav id="nav-bar">
+        <a href="#info-curso" class="nav-link">Info</a>
+        <a href="#video" class="nav-link">Clase gratuita</a>
+        <a href="#planes" class="nav-link">Planes</a>
+      </nav>
+    </header>
+    <main>
+      <form
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+        method="post"
+      >
+        <label for="email"><b>Contacta con nosotros y comienza ya</b></label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Ingrese su email"
+        />
+        <input type="submit" id="submit" />
+      </form>
+      <div id="info-curso">
+        <div class="caja-info">
+          <i class="fa-brands fa-youtube"></i>
+          <div class="caja-texto">
+            <h2>Clases gratuitas</h2>
+            <p>
+              Clases pregrabadas completamente gratuitas para que puedas
+              aprender en el tiempo que tengas disponible
+            </p>
+          </div>
+        </div>
+        <div class="caja-info">
+          <i class="fa-solid fa-headset"></i>
+          <div class="caja-texto">
+            <h2>Clases sincrónicas grupales online</h2>
+            <p>
+              Clases sincrónicas para que puedas resolver todas tus dudas en
+              tiempo real.
+            </p>
+          </div>
+        </div>
+        <div class="caja-info">
+          <i class="fa-solid fa-guitar"></i>
+          <div class="caja-texto">
+            <h2>Clases particulares</h2>
+            <p>
+              Clases particulares para que puedas aprender a tu ritmo con clases
+              adaptadas para vos
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/S_QIaGgLJ-0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div id="planes">
+        <div class="caja-plan">
+          <p class="titulo">Gratuito</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i>Videos pregrabados</li>
+            <li>
+              <i class="fa-solid fa-xmark"></i>Clases sincrónicas grupales
+            </li>
+            <li><i class="fa-solid fa-xmark"></i>Clases particulares</li>
+          </ul>
+          <button>Seleccionar</button>
+        </div>
+        <div class="caja-plan">
+          <p class="titulo">$200</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i>Videos pregrabados</li>
+            <li>
+              <i class="fa-solid fa-check"></i>Clases sincrónicas grupales
+            </li>
+            <li><i class="fa-solid fa-xmark"></i>Clases particulares</li>
+          </ul>
+          <button>Seleccionar</button>
+        </div>
+        <div class="caja-plan">
+          <p class="titulo">$600</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i>Videos pregrabados</li>
+            <li>
+              <i class="fa-solid fa-check"></i>Clases sincrónicas grupales
+            </li>
+            <li><i class="fa-solid fa-check"></i>Clases particulares</li>
+          </ul>
+          <button>Seleccionar</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
